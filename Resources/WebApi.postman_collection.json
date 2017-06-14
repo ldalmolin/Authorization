@@ -1,0 +1,208 @@
+{
+	"id": "d5d072dc-f4c0-20a4-335b-60e3f480febd",
+	"name": "WebApi",
+	"description": "",
+	"order": [
+		"dcb18bbc-e334-7a04-df18-c2d5a796f82f",
+		"cf2e2334-8927-56f2-7a38-57a8a14d3d37",
+		"9193a170-6f9f-3112-be45-a118cc2a50e7",
+		"2b0bfd25-44d0-96e8-4393-e1b5ac2b45aa",
+		"278cde4d-2ba2-fd97-2929-5c23896d3c30",
+		"26de9f28-3c76-7c08-ee24-c02096768f49"
+	],
+	"folders": [],
+	"timestamp": 1497347269911,
+	"owner": "1561643",
+	"public": false,
+	"requests": [
+		{
+			"id": "26de9f28-3c76-7c08-ee24-c02096768f49",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: Bearer CfDJ8BJg8-XIzDBMuOORc3AhrujUC9vROAjntKiPCc3iYGMPjKOCQu0AFsRpb2GKmynafT1ARJOBK-MTEjWOeYyyMwsIacOyspfsbUI3NLKxoEpP_PpLItkXtvE5ZgTaqYEEhhDQohtQdlNRmF3vQdEUZ1zr6cPQLyVmZi80gHQ3dVT38o7vz_sQgeIEh1Du0nIOZPr02TNkPQPU0dpXXI1N-gHLtGoym5UFrFqK35-3ZoHlE5dKQYbvCPlD_NsbMqhVZeDo7EGT0WJVQKM_f-e6gLbTa79eIHkjFicPG9yhhDWzcQ6c3tm0u6C9-ybweBVHt62GTDNUMJN14XVFviuqvIJzkEJOyDzr-sF981jQQY_iBefr-YaCQkCaSiiGGzd2-oDt-LZSDvVP6Y6609f3RtuU2QgSYtJe1zhrt-W4bZteasSLgRFtQ11KQPlqCTSQaVEeTFFsBBGcCnEi0dQirpL-WtsbmRwSsAdbOm-aeCqnOjg2T23DSJDVgajeCp2O7422BLLJ5j7GAWJoMgReaEjrp-9BzF8szGnX-kTjbsbt\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer CfDJ8BJg8-XIzDBMuOORc3AhrujUC9vROAjntKiPCc3iYGMPjKOCQu0AFsRpb2GKmynafT1ARJOBK-MTEjWOeYyyMwsIacOyspfsbUI3NLKxoEpP_PpLItkXtvE5ZgTaqYEEhhDQohtQdlNRmF3vQdEUZ1zr6cPQLyVmZi80gHQ3dVT38o7vz_sQgeIEh1Du0nIOZPr02TNkPQPU0dpXXI1N-gHLtGoym5UFrFqK35-3ZoHlE5dKQYbvCPlD_NsbMqhVZeDo7EGT0WJVQKM_f-e6gLbTa79eIHkjFicPG9yhhDWzcQ6c3tm0u6C9-ybweBVHt62GTDNUMJN14XVFviuqvIJzkEJOyDzr-sF981jQQY_iBefr-YaCQkCaSiiGGzd2-oDt-LZSDvVP6Y6609f3RtuU2QgSYtJe1zhrt-W4bZteasSLgRFtQ11KQPlqCTSQaVEeTFFsBBGcCnEi0dQirpL-WtsbmRwSsAdbOm-aeCqnOjg2T23DSJDVgajeCp2O7422BLLJ5j7GAWJoMgReaEjrp-9BzF8szGnX-kTjbsbt",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://authenticationtoken.azurewebsites.net/api/message",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497455718554,
+			"name": "http://authenticationtoken.azurewebsites.net/api/message",
+			"description": "",
+			"collectionId": "d5d072dc-f4c0-20a4-335b-60e3f480febd",
+			"responses": []
+		},
+		{
+			"id": "278cde4d-2ba2-fd97-2929-5c23896d3c30",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://authenticationtoken.azurewebsites.net/connect/token",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "test3.test@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "$D4v1d1gn0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497455223561,
+			"name": "http://authenticationtoken.azurewebsites.net/connect/token",
+			"description": "",
+			"collectionId": "d5d072dc-f4c0-20a4-335b-60e3f480febd",
+			"responses": []
+		},
+		{
+			"id": "2b0bfd25-44d0-96e8-4393-e1b5ac2b45aa",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://authenticationtoken.azurewebsites.net/Account/Register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497454723362,
+			"name": "http://localhost:58795/Account/Register",
+			"description": "",
+			"collectionId": "d5d072dc-f4c0-20a4-335b-60e3f480febd",
+			"responses": [],
+			"rawModeData": "{\n\t\"Email\" : \"test3.test@gmail.com\",\n\t\"Password\" : \"$D4v1d1gn0\"\n}"
+		},
+		{
+			"id": "9193a170-6f9f-3112-be45-a118cc2a50e7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497366746265,
+			"name": "PostUser",
+			"description": "",
+			"collectionId": "d5d072dc-f4c0-20a4-335b-60e3f480febd",
+			"responses": [],
+			"rawModeData": "{\n\t\"Email\" : \"test.test@gmail.com\",\n\t\"Name\" : \"Davide\",\n\t\"LastName\" : \"Piatti\"\n}"
+		},
+		{
+			"id": "cf2e2334-8927-56f2-7a38-57a8a14d3d37",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5000/api/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d5d072dc-f4c0-20a4-335b-60e3f480febd",
+			"data": null,
+			"dataMode": "params",
+			"name": "GetUsers",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1497357511914,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "dcb18bbc-e334-7a04-df18-c2d5a796f82f",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5000/api/values",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d5d072dc-f4c0-20a4-335b-60e3f480febd",
+			"data": null,
+			"dataMode": "params",
+			"name": "GetValues",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1497347295021,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
