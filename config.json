@@ -1,7 +1,7 @@
 {
   "Data": {
     "DefaultConnection": {
-      "ConnectionString": "Server=tcp:dotnetdb.database.windows.net,1433;Initial Catalog=DotNetDB;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+      "ConnectionString": "Server=tcp:dotnetdb.database.windows.net,1433;Initial Catalog=DotNetDB;Persist Security Info=False;User ID=DotNetDB;Password=$admin123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     }
   }
 }
